@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'KiaSignatureFixOTFRegular';
+    src: url('https://raw.githubusercontent.com/sfhe-skps/K_Sig_Fonts/main/KiaSignatureFixOTFRegular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'KiaSignatureFixOTFBold';
+    src: url('https://raw.githubusercontent.com/sfhe-skps/K_Sig_Fonts/main/KiaSignatureFixOTFBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'KiaSignatureFixOTFLight';
+    src: url('https://raw.githubusercontent.com/sfhe-skps/K_Sig_Fonts/main/KiaSignatureFixOTFLight.otf') format('opentype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'KiaSignatureFixOTFRegular', Tahoma, sans-serif !important;
+}
+
+.Skin .QuestionText, 
+.Skin .QuestionText strong {
+    font-family: 'KiaSignatureFixOTFBold', Tahoma, sans-serif !important;
+}
+
+.Skin .SubText {
+    font-family: 'KiaSignatureFixOTFLight', Tahoma, sans-serif !important;
+}

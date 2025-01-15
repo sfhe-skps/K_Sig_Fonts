@@ -26,13 +26,12 @@
 }
 
 /* Apply Regular Font to All Body Text */
-body {
+.Skin .QuestionText {
     font-family: 'KiaSignatureFixOTF', Tahoma, sans-serif !important;
     font-weight: 400;
 }
 
 /* Apply Bold Font to Headings and Emphasized Text */
-.Skin .QuestionText, 
 .Skin .QuestionText strong {
     font-family: 'KiaSignatureFixOTF', Tahoma, sans-serif !important;
     font-weight: 700;
